@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E459B8FB25ED0E7300EA735F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E459B8FA25ED0E7300EA735F /* main.m */; };
-		E4AFEF3625FF9252004515A6 /* SRMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AFEF3525FF9252004515A6 /* SRMethod.m */; };
+		E4AFEF3A25FF9261004515A6 /* SRMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AFEF3925FF9261004515A6 /* SRMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 		E459B8F725ED0E7300EA735F /* BaseProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaseProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		E459B8FA25ED0E7300EA735F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4AFEF2A25FF7D33004515A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E4AFEF3425FF9252004515A6 /* SRMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRMethod.h; sourceTree = "<group>"; };
-		E4AFEF3525FF9252004515A6 /* SRMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRMethod.m; sourceTree = "<group>"; };
+		E4AFEF3825FF9261004515A6 /* SRMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRMethod.h; sourceTree = "<group>"; };
+		E4AFEF3925FF9261004515A6 /* SRMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				E459B8FA25ED0E7300EA735F /* main.m */,
-				E4AFEF3425FF9252004515A6 /* SRMethod.h */,
-				E4AFEF3525FF9252004515A6 /* SRMethod.m */,
+				E4AFEF3825FF9261004515A6 /* SRMethod.h */,
+				E4AFEF3925FF9261004515A6 /* SRMethod.m */,
 			);
 			path = BaseProject;
 			sourceTree = "<group>";
@@ -99,7 +99,6 @@
 				TargetAttributes = {
 					E459B8F625ED0E7300EA735F = {
 						CreatedOnToolsVersion = 12.2;
-						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -127,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E459B8FB25ED0E7300EA735F /* main.m in Sources */,
-				E4AFEF3625FF9252004515A6 /* SRMethod.m in Sources */,
+				E4AFEF3A25FF9261004515A6 /* SRMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,35 +247,20 @@
 		E459B8FF25ED0E7300EA735F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8FBBY2SRU5;
 				ENABLE_HARDENED_RUNTIME = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		E459B90025ED0E7300EA735F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8FBBY2SRU5;
 				ENABLE_HARDENED_RUNTIME = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
